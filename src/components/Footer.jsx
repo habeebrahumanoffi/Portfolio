@@ -104,20 +104,6 @@ export default function Footer() {
           <p className="text-slate-500 text-sm text-center sm:text-left">
             © 2026 <span className="text-slate-300 font-semibold">Habeeb Rahuman M</span>
           </p>
-          <motion.p
-            animate={{ opacity: [0.6, 1, 0.6] }}
-            transition={{ duration: 3, repeat: Infinity }}
-            className="text-slate-500 text-sm flex items-center gap-1.5"
-          >
-            Made with{' '}
-            <motion.span
-              animate={{ scale: [1, 1.3, 1] }}
-              transition={{ duration: 1.5, repeat: Infinity }}
-            >
-              <FaHeart className="text-pink-500 text-xs" />
-            </motion.span>{' '}
-            using React &amp; Tailwind CSS
-          </motion.p>
         </div>
       </div>
     </footer>
