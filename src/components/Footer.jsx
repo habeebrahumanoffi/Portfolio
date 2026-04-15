@@ -48,12 +48,12 @@ export default function Footer() {
               </div>
               <div>
                 <div className="font-black text-white">Habeeb Rahuman M</div>
-                <div className="text-xs text-slate-400">AI & Data Science Student</div>
               </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
               Building practical solutions and exploring the frontiers of AI, web, and cloud technology.
             </p>
+
           </div>
 
           {/* Navigation */}
@@ -102,7 +102,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-slate-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-slate-500 text-sm text-center sm:text-left">
-            © 2026 <span className="text-slate-300 font-semibold">Habeeb Rahuman M</span> — All rights reserved.
+            © 2026 <span className="text-slate-300 font-semibold">Habeeb Rahuman M</span>
           </p>
           <motion.p
             animate={{ opacity: [0.6, 1, 0.6] }}
