@@ -38,50 +38,21 @@ export default function Footer() {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
-
-          {/* Brand */}
-          <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-lg">
-                <span className="text-white text-lg font-black">HR</span>
-              </div>
-              <div>
-                <div className="font-black text-white">Habeeb Rahuman M</div>
-              </div>
+        <div className="flex flex-col items-center text-center mb-10">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-lg">
+              <span className="text-white text-lg font-black">HR</span>
             </div>
-            <p className="text-slate-400 text-sm leading-relaxed">
-              Building practical solutions and exploring the frontiers of AI, web, and cloud technology.
-            </p>
-
+            <div className="font-black text-white">Habeeb Rahuman M</div>
           </div>
-
-
-          {/* Social */}
-          <div>
-            <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Connect</p>
-            <div className="flex gap-3 mb-4">
-              {socials.map((s) => (
-                <motion.a
-                  key={s.label}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={s.label}
-                  whileHover={{ scale: 1.15, y: -3 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="w-10 h-10 rounded-xl bg-slate-800 hover:bg-indigo-600 flex items-center justify-center text-slate-400 hover:text-white transition-all duration-300 border border-slate-700 hover:border-indigo-500"
-                >
-                  <s.icon className="text-lg" />
-                </motion.a>
-              ))}
-            </div>
-          </div>
+          <p className="text-slate-400 text-sm leading-relaxed max-w-md">
+            Building practical solutions and exploring the frontiers of AI, web, and cloud technology.
+          </p>
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-slate-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-slate-500 text-sm text-center sm:text-left">
+        <div className="border-t border-slate-800 pt-6 flex justify-center">
+          <p className="text-slate-500 text-sm text-center">
             © 2026 <span className="text-slate-300 font-semibold">Habeeb Rahuman M</span>
           </p>
         </div>
