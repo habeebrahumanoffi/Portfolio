@@ -238,7 +238,7 @@ export default function Hero() {
               />
               {/* Profile photo */}
               <img
-                src="/portfolio photo.jpeg"
+                src={`${import.meta.env.BASE_URL}photo.jpeg`}
                 alt="Habeeb Rahuman M"
                 className="absolute inset-0 w-full h-full object-cover"
               />
