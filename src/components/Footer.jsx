@@ -56,23 +56,6 @@ export default function Footer() {
 
           </div>
 
-          {/* Navigation */}
-          <div>
-            <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Navigation</p>
-            <ul className="grid grid-cols-2 gap-1.5">
-              {links.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    onClick={(e) => scrollTo(e, link.href)}
-                    className="text-slate-400 hover:text-indigo-400 transition-colors text-sm font-medium"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
 
           {/* Social */}
           <div>
@@ -93,9 +76,6 @@ export default function Footer() {
                 </motion.a>
               ))}
             </div>
-            <p className="text-slate-400 text-sm">
-              Open to opportunities &amp; collaborations. Let's connect!
-            </p>
           </div>
         </div>
 
